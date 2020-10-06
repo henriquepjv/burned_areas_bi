@@ -1,7 +1,8 @@
-# Flask Login and Registration
+# BI with Brazilian burned areas
 Flask Login and Registration System through SQLite.
+Bussiness inteligence from PowerBI
 ### Git Clone 
-``` git clone https://github.com/maheshkareeya/flask-login.git```
+``` git clone git@github.com:henriquepjv/burned_areas_bi.git```
 ### Change Directory
 ```cd flask-login```
 ### Note : Install Python and Postman for your system
@@ -30,6 +31,7 @@ http://localhost:5000
 
 
 ### Demo
-![alt text](https://user-images.githubusercontent.com/16520789/71319725-f2463280-24c7-11ea-9e73-729dd79c6681.png "Node File Explorer")
-![alt text](https://user-images.githubusercontent.com/16520789/71319729-fffbb800-24c7-11ea-9cad-a62dd1dd5509.png "Node File Explorer")
-![alt text](https://user-images.githubusercontent.com/16520789/71319732-0ab64d00-24c8-11ea-99f2-189e753519b8.png "Node File Explorer")
+<img width="1429" alt="form de cadastro" src="https://user-images.githubusercontent.com/22040894/95146807-423f6e80-0755-11eb-93b9-c05fad3afa9f.png">
+<img width="1424" alt="form de login" src="https://user-images.githubusercontent.com/22040894/95146826-4c616d00-0755-11eb-8594-6d08ed26fbe0.png">
+<img width="1427" alt="dashboard bi" src="https://user-images.githubusercontent.com/22040894/95146876-76b32a80-0755-11eb-9da4-d49c29bbea70.png">
+
