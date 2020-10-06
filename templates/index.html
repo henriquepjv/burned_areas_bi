@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/external/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>Embedded Power BI</title>
+</head>
+
+<body>
+    <header class="embed-container col-lg-12 col-md-12 col-sm-12 shadow">
+        <p>
+            Queimadas no Brasil
+        </p>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-md-7 mt-2">
+          <iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiYTVlZGZiOTMtYmFmZC00NTI4LTlhMzQtMzE3NDQ3ZTliMzExIiwidCI6ImRhMTQzMTM1LTQzZDctNGI4MC04YzM2LTIzOWM0OGJlZjMzYiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+        <div class="col-md-5 mt-5 pr-5">
+          <ul>
+            <li>
+              <p>Front End desenvolvido em Python com o framework Flask com o
+              objetivo de rodar apenas páginas estáticas e uma autenticação
+              simples de usuário</p>
+            </li>
+            <li>
+              <p>Os dados utilizados aqui foram obtidos no PORTAL BRASILEIRO
+              DE DADOS ABERTOS e tratados para serem melhor visualizados
+              no Power BI</p>
+            </li>
+        </div>
+      </div>
+    </main>
+    <footer class="embed-container col-lg-12 col-md-12 col-sm-12 mb-0 mt-5">
+        <p class="text-center">
+            Desenvolvido por Gabriel Panham <a
+            href="https://www.linkedin.com/in/gabriel-panham-junqueira-villela-34609b106/">Linkedin</a>
+        </p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/external/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/external/jquery-3.4.1.min.js') }}"></script>
+</body>
+</html>
